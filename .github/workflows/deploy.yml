@@ -20,4 +20,4 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SERVER_PORT }}
-          script: chmod +x ~/Task-Manager/deploy.sh && ~/Task-Manager/deploy.sh
+          script: "chmod +x ~/Task-Manager/deploy.sh && ~/Task-Manager/deploy.sh"
